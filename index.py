@@ -23,9 +23,9 @@ def today():
 	now = datetime.now(tz)
 	return render_template("today.html", datetime = str(now))
 
-@app.route("/網頁簡介")
-def 網頁簡介():
-	return render_template("網頁簡介.html")
+@app.route("/about")
+def about():
+	return render_template("about.html")
 
 
 
